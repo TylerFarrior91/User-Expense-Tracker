@@ -44,7 +44,7 @@ Navigate to the project directory:
 
 bash
 Copy code
-cd expense-tracker
+cd Expense-Rracker
 Open index.html in your preferred web browser.
 
 ## Usage
