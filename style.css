@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.balance, .income-expense, .history, .add-transaction {
+    margin-bottom: 20px;
+}
+
+h2, h3, h4 {
+    margin: 0;
+    color: #555;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.income, .expense {
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input, button {
+    margin-top: 10px;
+    width: 100%;
+}
+
