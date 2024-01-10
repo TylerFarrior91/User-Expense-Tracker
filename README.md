@@ -39,7 +39,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/expense-tracker.git
+git clone https://github.com/TylerFarrior91/User-Expense-Tracker
 Navigate to the project directory:
 
 bash
