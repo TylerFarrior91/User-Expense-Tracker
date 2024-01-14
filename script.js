@@ -40,3 +40,8 @@ function addTransaction() {
     // Clear input fields
     textElement.value = '';
     amountElement.value = '';
+    function addToHistoryList(transaction) {
+        const li = document.createElement('li');
+        li.innerHTML = `${transaction.text} <span>${transaction.amount > 0 ? '+' : ''}$${transaction.amount.toFixed(2)}</span>`;
+        historyListElement.appendChild(li);
+    }
