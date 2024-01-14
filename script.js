@@ -52,3 +52,10 @@ function addTransaction() {
             expense -= transaction.amount;
         }
     }
+    function updateIncomeExpense(transaction) {
+        if (transaction.amount > 0) {
+            income += transaction.amount;
+        } else {
+            expense -= transaction.amount;
+        }
+    }
