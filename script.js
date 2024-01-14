@@ -15,3 +15,18 @@ function updateBalance() {
     incomeElement.innerText = `$${income.toFixed(2)}`;
     expenseElement.innerText = `$${expense.toFixed(2)}`;
 }
+function addTransaction() {
+    const text = textElement.value;
+    const amount = parseFloat(amountElement.value);
+}
+
+    if (text.trim() === '' || isNaN(amount)) {
+        alert('Please enter valid text and amount.');
+        return;
+    }
+
+    const transaction = {
+        id: generateID(),
+        text,
+        amount,
+    };
