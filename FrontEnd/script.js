@@ -3,6 +3,8 @@ const incomeElement = document.getElementById('income');
 const expenseElement = document.getElementById('expense'); const historyListElement = document.getElementById('historyList');
 const textElement = document.getElementById('text');
 const amountElement = document.getElementById('amount');
+const expensesRouter = require('./routes/expenses');
+app.use(expensesRouter);
 
 let balance = 0;
 let income = 0;
