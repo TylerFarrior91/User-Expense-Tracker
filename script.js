@@ -45,3 +45,10 @@ function addTransaction() {
         li.innerHTML = `${transaction.text} <span>${transaction.amount > 0 ? '+' : ''}$${transaction.amount.toFixed(2)}</span>`;
         historyListElement.appendChild(li);
     }
+    function updateIncomeExpense(transaction) {
+        if (transaction.amount > 0) {
+            income += transaction.amount;
+        } else {
+            expense -= transaction.amount;
+        }
+    }
