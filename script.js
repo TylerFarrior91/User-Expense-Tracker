@@ -30,3 +30,13 @@ function addTransaction() {
         text,
         amount,
     };
+
+    transactions.push(transaction);
+
+    addToHistoryList(transaction);
+    updateIncomeExpense(transaction);
+    updateBalance();
+
+    // Clear input fields
+    textElement.value = '';
+    amountElement.value = '';
